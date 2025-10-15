@@ -6,12 +6,12 @@ Este projeto documenta a execução de um desafio prático da plataforma DIO, fo
 
 A experiência abrange desde a criação do recurso de IA no portal do Azure até a execução de testes práticos, incluindo a superação de desafios técnicos relacionados ao ambiente da conta de estudante.
 
-## 🤖 Ferramentas Utilizadas
+## 🤖 Ferramientas Utilizadas
 
 * **Microsoft Azure** (com assinatura Azure for Students)
 * **Azure AI Services** (Recurso multisserviço)
 * **Azure Speech Studio**
-* **Azure AI Studio** (Playground de Idiomas)
+* **Azure AI Studio** (Playground de idiomas)
 
 ## 🚀 Passo a Passo da Experiência
 
