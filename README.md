@@ -32,14 +32,14 @@ Após a implantação, o recurso foi exibido com sucesso no painel do Azure, pro
 
 Com o recurso ativo, o primeiro teste foi realizado no Speech Studio para validar a funcionalidade de conversão de fala em texto. Foi feito o upload de um arquivo de áudio de exemplo, e a ferramenta transcreveu o conteúdo para texto com sucesso e rapidez, demonstrando a eficácia do serviço.
 
-![Resultado do teste de conversão de áudio para texto no Speech Studio.](./images/4 teste speech std.png)
+![Resultado do teste de conversão de áudio para texto no Speech Studio.](./images/teste_speech.png)
 
 ### 3. Desafio com o Language Studio
 
 A etapa seguinte foi testar a análise de sentimento. A tentativa inicial foi conectar o Language Studio padrão ao recurso de IA criado. No entanto, o processo apresentou um erro "404, Resource not found", possivelmente relacionado a permissões específicas ou à forma como a assinatura de estudante se integra com este serviço em particular.
 
-![Tentativa de conexão do Language Studio, selecionando o tipo de recurso 'Cognitive Services'.](./images/5 tenta lang std.png)
-![Erro '404, Resource not found' ao tentar localizar o recurso no Language Studio.](./images/6 erro lang std.png)
+![Tentativa de conexão do Language Studio, selecionando o tipo de recurso 'Cognitive Services'.](./images/tenta_lang.png)
+![Erro '404, Resource not found' ao tentar localizar o recurso no Language Studio.](./images/erro_lang.png)
 
 ### 4. Solução: Teste no Azure AI Studio (Playground)
 
@@ -47,12 +47,12 @@ Para contornar o problema, a funcionalidade de análise de sentimento foi acessa
 
 Foi selecionada a opção "Analisar sentimento" e um texto com uma mistura de sentimentos positivos, negativos e neutros foi inserido para o teste.
 
-![Seleção da funcionalidade 'Analisar sentimento' no Playground do Azure AI Studio.](./images/7 test AI Foundry.png)
-![Texto de exemplo inserido na interface para análise.](./images/8 test AI Foundry.png)
+![Seleção da funcionalidade 'Analisar sentimento' no Playground do Azure AI Studio.](./images/AI_Foundry1.png)
+![Texto de exemplo inserido na interface para análise.](./images/AI_Foundry2.png)
 
 O resultado foi impressionante. A IA classificou o sentimento geral do parágrafo como **misto (mixed)** e forneceu uma análise detalhada para cada frase individualmente, identificando corretamente os trechos neutros, positivos e negativos com suas respectivas pontuações de confiança.
 
-![Resultado detalhado da análise de sentimento, mostrando a classificação geral e por frase.](./images/9 test AI Foundry.png)
+![Resultado detalhado da análise de sentimento, mostrando a classificação geral e por frase.](./images/AI_Foundry3.png)
 
 ## ✔️ Conclusão e Aprendizados
 
