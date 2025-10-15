@@ -25,8 +25,8 @@ O primeiro passo foi criar o recurso de Serviços de IA do Azure. Utilizando uma
 
 Após a implantação, o recurso foi exibido com sucesso no painel do Azure, pronto para ser utilizado.
 
-![Recurso 'bot-proj-dio' listado no grupo de recursos.](./images/2 criado.png)
-![Página de visão geral do recurso de IA criado.](./images/3 criado.png)
+![Recurso 'bot-proj-dio' listado no grupo de recursos.](./images/criado1.png)
+![Página de visão geral do recurso de IA criado.](./images/criado2.png)
 
 ### 2. Teste com Speech Studio
 
