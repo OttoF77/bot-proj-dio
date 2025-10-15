@@ -21,7 +21,7 @@ A seguir, um detalhamento de todo o processo, desde a configuração inicial at�
 
 O primeiro passo foi criar o recurso de Serviços de IA do Azure. Utilizando uma assinatura "Azure for Students", o recurso `bot-proj-dio` foi configurado na região `Brazil South` com o tier de preço `Standard S0`, conforme a disponibilidade da conta.
 
-![Tela de configuração e criação do recurso de IA no Azure.](./images/1 cria teste.png)
+![Tela de configuração e criação do recurso de IA no Azure.](./images/cria_teste.png)
 
 Após a implantação, o recurso foi exibido com sucesso no painel do Azure, pronto para ser utilizado.
 
